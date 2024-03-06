@@ -11,7 +11,7 @@ const User2={
      lastName:"Dayal"
 }
 
-// call()This me
+// call():This method allow an object to use the method of another object and agrument provide individually
 //call():Call is a function that helps you change the context of the invoking function.
 console.log(User1.surName.call(User2,'Pune','Maharashtra'));
 
